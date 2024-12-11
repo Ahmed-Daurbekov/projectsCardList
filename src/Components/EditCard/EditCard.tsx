@@ -86,7 +86,7 @@ const EditCard = () => {
           dispatch(fetchCardLists())
           .then(() => {
             setLoading(false)
-            navigate('/')
+            navigate('/projectsCardList')
           })
         })      
     } else {

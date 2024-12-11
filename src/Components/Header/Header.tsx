@@ -23,7 +23,7 @@ const Header: React.FC<IMainPage> = ({ cardListFilter, setCardListFilter, loadin
   let navigation = useNavigate();
 
   let titleObj: Record<string, string> = {
-    '': 'Продукты',
+    'projectsCardList': 'Продукты',
     'create-product': 'Создание нового продукта',
     'show-product/:id': 'Просмотр продукта',
     'edit-product/:id': 'Редактирование продукта',

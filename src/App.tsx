@@ -83,7 +83,7 @@ function App() {
       />
       <Routes>
         <Route
-          path="/"
+          path="/projectsCardList"
           element={
             <MainPage
               cardListFilter={cardListWithFilterArr}
