@@ -1,0 +1,71 @@
+.createCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+  &Form {
+    display: flex;
+    gap: 10px;
+
+    &TextArea {
+      width: 515px;
+      border-radius: 5px;
+      font-size: 18px;
+      padding: 5px;
+      resize: vertical;
+      margin-top: 10px;
+      height: 240px;
+      max-height: 265px;
+    }
+
+    &Button {
+      display: block;
+      width: 100%;
+      margin-top: 5px;
+      font-size: 18px;
+      border-radius: 5px;
+      outline: none;
+      cursor: pointer;
+      padding: 5px 0;
+    }
+
+    &-img_block {
+      width: 315px;
+      height: 347px;
+      border: 1px solid #184F6D;
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      img {
+        width: 100%;
+        height: 100%;
+      }
+  
+      label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        
+        .inputFile {
+          display: none;
+        }
+  
+        .click-to-select {
+          color: #898989;
+          text-align: center;
+          font-size: 26px;
+          font-weight: 500;
+          width: 100%;
+          max-width: 190px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.cardShow {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+  &Block {
+    display: flex;
+    gap: 10px;
+
+    &-img_block {
+      width: 500px;
+      height: 270px;
+      border: 1px solid #184F6D;
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &-text_block {
+      font-weight: 500;
+      font-size: 20px;
+      width: 515px;
+    }
+  }
+}
