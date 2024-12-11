@@ -94,7 +94,7 @@ const CreateCard:React.FC<createCardType> = ({setUpDate, upDate}) => {
           })
           setUpDate(!upDate)
           setLoading(false)
-          navigate('/projectsCardList')
+          navigate('/projectsCardList/')
         } catch (error) {
           console.error('Ошибка загрузки изображения: ', error);
         }

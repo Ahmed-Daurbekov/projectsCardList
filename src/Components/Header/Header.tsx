@@ -22,8 +22,11 @@ const Header: React.FC<IMainPage> = ({ cardListFilter, setCardListFilter, loadin
   let pathname = location?.pathname;
   let navigation = useNavigate();
 
+  console.log(pathname);
+  
+  
   let titleObj: Record<string, string> = {
-    'projectsCardList': 'Продукты',
+    'projectsCardList/': 'Продукты',
     'create-product': 'Создание нового продукта',
     'show-product/:id': 'Просмотр продукта',
     'edit-product/:id': 'Редактирование продукта',
